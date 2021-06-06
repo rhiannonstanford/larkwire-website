@@ -166,9 +166,8 @@ $(document).ready(function(){
 
 
 	/* ------ Google Maps script ------ */
-
-	var myLatlng = {lat: 45.91498, lng: 14.368148};
-	var latlng = new google.maps.LatLng(40.4464, -74.3788);
+	var myLatlng = {lat: 47.6, lng: -122.332};
+//	var latlng = new google.maps.LatLng(40.4464, -74.3788);
 
 	var map = new google.maps.Map(document.getElementById('map'), {
 		zoom: 14,
